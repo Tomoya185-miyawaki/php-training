@@ -1,3 +1,4 @@
 .vscode
 docker/db
 docker/nginx/html
+vendor
