@@ -1,0 +1,12 @@
+{
+    "name": "php/training",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+          "app/helper/view.php"
+        ]
+    },
+    "require": {}
+}

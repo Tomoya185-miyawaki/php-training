@@ -5,4 +5,6 @@ RUN apt-get update \
 
 ADD ./php.ini /usr/local/etc/php/php.ini
 
+COPY --from=composer /usr/bin/composer /usr/bin/composer
+
 WORKDIR /var/www/html
